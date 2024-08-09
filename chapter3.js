@@ -27,7 +27,7 @@ while(userNum != gameNum)
 }
 console.log("Congrualtions");
 
-//Q3- Write a program to find mean of 5 numbers.
+//Q4- Write a program to find mean of 5 numbers.
 
 const numbers = [10, 20, 30, 40, 50];
 let sum = 0;
@@ -37,7 +37,7 @@ for (let i = 0; i < numbers.length; i++) {
 const mean = sum / numbers.length;
 console.log("The mean of the 5 numbers is: " + mean);
 
-//Q3- Print all even numbers from 0 to 100.
+//Q5- Print all even numbers from 0 to 100.
 
 for(let y = 0; y<=100; y++){
     if(y % 2 === 0){
